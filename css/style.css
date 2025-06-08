@@ -1,0 +1,96 @@
+nav {
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+    /*umum*/
+    body {
+      font-family: arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+    }
+    header {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.produk-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+produk-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.produk-item button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.produk-item button:hover {
+  background-color: #575757;
+}
+
+.tentang-kami {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  .produk {
+    flex-direction: column;
+    align-items: center;
+  }
+}
